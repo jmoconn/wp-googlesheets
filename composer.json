@@ -1,0 +1,26 @@
+{
+  "name": "tm_sheets/tm_sheets",
+  "description": "Google Sheets WP Integration",
+  "type": "project",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jeff O'Connell",
+      "email": "jeff.oconnell@tealmedia.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "config": {
+    "platform": {
+        "php": "7.4"
+    }
+  },
+  "require": {
+    "google/apiclient": "^2.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "TmSheets\\": "./inc"
+    }
+  }
+}
